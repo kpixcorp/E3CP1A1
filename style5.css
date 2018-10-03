@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+
+.prim {
+	background: green;
+	color: white;
+	text-align: center;
+	padding: 50px;
+}
+
+.sec {
+	width: 33%;
+	float: left;
+	padding: 30px;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+.sec img {
+	max-width: 100%;
+}

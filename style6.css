@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+
+	.prim {
+	background: green;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	}
+
+	.prim h1 {
+		font-size: 2rem;
+	}
+
+
+	.sec {
+		width: 50%;
+		padding: 10px;
+		box-sizing: border-box;
+		text-align: center;
+		margin-left: 25%;
+	}
+
+	.sec img {
+		max-width: 100%;
+		margin: 20px 0 0 0;
+	}
+}
+
+@media screen and (min-width: 481px){
+	.prim {
+	background: green;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	}
+
+	.sec {
+		width: 33%;
+		float: left;
+		padding: 30px;
+		box-sizing: border-box;
+		text-align: center;
+
+	}
+
+	.sec img {
+		max-width: 100%;
+	}
+
+
+}
